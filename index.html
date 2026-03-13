@@ -83,11 +83,11 @@
             <a href="https://thethaiger.com/th/news/1498731/" target="_blank">อ่านข่าวเพิ่มเติมเกี่ยวกับพี่เอ็ม</a> </p>
 
         <div class="js-section">
-            <button onclick="welcomeAlert()">แสดงข้อความต้อนรับ</button> [cite: 31]
+            <button onclick="welcomeAlert()">แสดงข้อความต้อนรับ</button>
             
             <br>
 
-            <input type="text" id="userInput" placeholder="กรอกชื่อของคุณ"> [cite: 40]
+            <input type="text" id="userInput" placeholder="กรอกชื่อของคุณ">
             <button onclick="sayHello()">ทักทาย</button> [cite: 40]
             <p id="result"></p>
         </div>
@@ -103,7 +103,7 @@
         function sayHello() {
             const name = document.getElementById("userInput").value;
             if (name) {
-                document.getElementById("result").innerText = "สวัสดี " + name + " ยินดีต้อนรับ"; [cite: 43]
+                document.getElementById("result").innerText = "สวัสดี " + name + " ยินดีต้อนรับ";
             } else {
                 alert("กรุณากรอกชื่อก่อนครับ");
             }
@@ -111,4 +111,5 @@
     </script>
 
 </body>
+
 </html>
